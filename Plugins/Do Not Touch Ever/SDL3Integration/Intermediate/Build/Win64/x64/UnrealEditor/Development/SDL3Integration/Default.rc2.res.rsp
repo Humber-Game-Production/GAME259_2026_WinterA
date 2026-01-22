@@ -2,7 +2,7 @@
 /D_WIN64
 /l 0x409
 /I "."
-/I "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/INCLUDE"
+/I "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/INCLUDE"
 /I "C:/Program Files (x86)/Windows Kits/10/include/10.0.22621.0/ucrt"
 /I "C:/Program Files (x86)/Windows Kits/10/include/10.0.22621.0/shared"
 /I "C:/Program Files (x86)/Windows Kits/10/include/10.0.22621.0/um"
@@ -86,5 +86,5 @@
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_IDENTIFIER=DeathRace
-/fo "C:/Team A Productions 2 2026/Plugins/Do Not Touch Ever/SDL3Integration/Intermediate/Build/Win64/x64/UnrealEditor/Development/SDL3Integration/Default.rc2.res"
+/fo "C:/GameProductions 2/Plugins/Do Not Touch Ever/SDL3Integration/Intermediate/Build/Win64/x64/UnrealEditor/Development/SDL3Integration/Default.rc2.res"
 "../Build/Windows/Resources/Default.rc2"
