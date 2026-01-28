@@ -95,10 +95,6 @@ Plugins/FMODStudioNiagara/Binaries/Win64/*
 Plugins/FMODStudio/Binaries/Win64/*.pdb
 Plugins/FMODStudioNiagara/Binaries/Win64/*.pdb
 
-# 6. Ignore FMOD Bank build outputs (From your highlighted folders)
-Content/FMOD/Desktop/
-Content/FMOD/Mobile/
-Content/FMOD/Banks/
 
 #-------------------------------------------------------------------------
 # OPTIONAL: Built Data
