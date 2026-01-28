@@ -67,24 +67,34 @@ Thumbs.db
 desktop.ini
 
 #-------------------------------------------------------------------------
-FMOD Integration Specifics
+# FMOD Integration: Keeping only the essentials
 #-------------------------------------------------------------------------
 
-Ignore FMOD Bank caches and build outputs
-Content/FMOD/Desktop/
-Content/FMOD/Mobile/
-Content/FMOD/Banks/
-
-Ignore Plugin documentation and build artifacts
-Plugins/FMODStudio/Docs/
-Plugins/FMODStudio/Binaries/
+# 1. Ignore the Plugin's auto-generated junk
 Plugins/FMODStudio/Intermediate/
-Plugins/FMODStudioNiagara/Binaries/
+Plugins/FMODStudio/Docs/
 Plugins/FMODStudioNiagara/Intermediate/
 
-Local user settings for the FMOD project
-.fmod/
-*.fspro.user
+# 2. IMPORTANT: Un-ignore the folders so Git can see the files inside
+!Plugins/FMODStudio/Binaries/
+!Plugins/FMODStudio/Binaries/Win64/
+!Plugins/FMODStudioNiagara/Binaries/
+!Plugins/FMODStudioNiagara/Binaries/Win64/
+
+# 3. Block everything in these folders by default
+Plugins/FMODStudio/Binaries/Win64/*
+Plugins/FMODStudioNiagara/Binaries/Win64/*
+
+# 4. ...BUT force-include the necessary precompiled libraries
+!Plugins/FMODStudio/Binaries/Win64/*.lib
+!Plugins/FMODStudio/Binaries/Win64/*.dll
+!Plugins/FMODStudioNiagara/Binaries/Win64/*.lib
+!Plugins/FMODStudioNiagara/Binaries/Win64/*.dll
+
+# 5. Explicitly ignore the huge Debug Symbols
+Plugins/FMODStudio/Binaries/Win64/*.pdb
+Plugins/FMODStudioNiagara/Binaries/Win64/*.pdb
+
 
 #-------------------------------------------------------------------------
 # OPTIONAL: Built Data
