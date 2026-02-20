@@ -8,14 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Added a spawned and parented shooter pawn to the vehicle pawn (currently unpossessed). Also set the shooter pawn to ignore collisions from vehicles and pawns.
-- Added building assets for chaos destruction
-- Added textures for the subway station
-- Added lighting test levels
+- 
 
 ### Changed
-- Updated hud game mode and default level to Level Design Master Level
-
+-
 
 ### Deprecated
 - 
@@ -24,11 +20,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 
 
 ### Fixed
-- Driver and shooter parented and spawn corrected
-- Fixed collisions for buildings
+- 
 
 ### Security
 - 
+
+
+## [0.2.0] - 2026-02-19
+
+### Added
+- Added a spawned and parented shooter pawn to the vehicle pawn (currently unpossessed). Also set the shooter pawn to ignore collisions from vehicles and pawns.
+- Added building assets for chaos destruction
+- Added textures for the subway station
+- Added lighting test levels
+
+### Changed
+- Updated hud game mode and default level to Level Design Master Level
+
+### Fixed
+- Driver and shooter parented and spawn corrected
+- Fixed collisions for buildings
+
 
 ## [0.1.0] - 2026-02-19
 
