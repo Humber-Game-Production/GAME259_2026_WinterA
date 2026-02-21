@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Changed Master material for MI_Plants_YDJ
 - Changed asset location of oldAssetsCombined to NewAssets_Forlevel Folder
+- Changed Lighting
 
 ### Deprecated
 - 
