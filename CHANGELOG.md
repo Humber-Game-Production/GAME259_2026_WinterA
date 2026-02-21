@@ -33,9 +33,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added building assets for chaos destruction
 - Added textures for the subway station
 - Added lighting test levels
+- Added Textures for subway, Plants
+- Added Flame BP in AssetOverview Level
 
 ### Changed
 - Updated hud game mode and default level to Level Design Master Level
+- Changed Master material for MI_Plants_YDJ
 
 ### Fixed
 - Driver and shooter parented and spawn corrected
