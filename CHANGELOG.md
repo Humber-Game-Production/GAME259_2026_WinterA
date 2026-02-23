@@ -13,12 +13,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added new fixed version of mail box
 - Added textures to plant assets
 - Added plant assets to Lv_Assetoverview
+- Added Floor,ceiling asset for chaos
+- Added Empty building for chaos
 
 ### Changed
 - Changed Master material for MI_Plants_YDJ
 - Changed asset location of oldAssetsCombined to NewAssets_Forlevel Folder
 - Changed Lighting
-
+- Changed Dongjoos building assets to new asset folder
 ### Deprecated
 - 
 
