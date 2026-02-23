@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added plant assets to Lv_Assetoverview
 - Added Floor,ceiling asset for chaos
 - Added Empty building for chaos
+- Added more buildings in level1
 
 ### Changed
 - Changed Master material for MI_Plants_YDJ
