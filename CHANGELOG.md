@@ -22,11 +22,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed asset location of oldAssetsCombined to NewAssets_Forlevel Folder
 - Changed Lighting
 - Changed Dongjoos building assets to new asset folder
+- Moved Cams asset to newasset folder
+
 ### Deprecated
 - 
 
 ### Removed
 - Removed old mailbox mesh
+- Removed Cams asset folder
+- Removed Old asset folder
 
 ### Fixed
 - Fixed collision for broken road mesh
