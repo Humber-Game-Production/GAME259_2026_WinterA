@@ -8,19 +8,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- 
+- Added Textures for subway, Plants
+- Added Flame BP in AssetOverview Level
+- Added new fixed version of mail box
+- Added textures to plant assets
+- Added plant assets to Lv_Assetoverview
+- Added Floor,ceiling asset for chaos
+- Added Empty building for chaos
+- Added more buildings in level1
 
 ### Changed
--
+- Changed Master material for MI_Plants_YDJ
+- Changed asset location of oldAssetsCombined to NewAssets_Forlevel Folder
+- Changed Lighting
+- Changed Dongjoos building assets to new asset folder
+- Moved Cams asset to newasset folder
 
 ### Deprecated
 - 
 
 ### Removed
-- 
+- Removed old mailbox mesh
+- Removed Cams asset folder
+- Removed Old asset folder
 
 ### Fixed
-- 
+- Fixed collision for broken road mesh
+- Fixed collision for grass mesh
 
 ### Security
 - 
@@ -34,8 +48,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added textures for the subway station
 - Added lighting test levels
 
+
 ### Changed
 - Updated hud game mode and default level to Level Design Master Level
+
 
 ### Fixed
 - Driver and shooter parented and spawn corrected
