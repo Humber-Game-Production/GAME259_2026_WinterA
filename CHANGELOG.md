@@ -8,36 +8,65 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Added Textures for subway, Plants
-- Added Flame BP in AssetOverview Level
-- Added new fixed version of mail box
-- Added textures to plant assets
-- Added plant assets to Lv_Assetoverview
-- Added Floor,ceiling asset for chaos
-- Added Empty building for chaos
-- Added more buildings in level1
+- 
 
 ### Changed
-- Changed Master material for MI_Plants_YDJ
-- Changed asset location of oldAssetsCombined to NewAssets_Forlevel Folder
-- Changed Lighting
-- Changed Dongjoos building assets to new asset folder
-- Moved Cams asset to newasset folder
+-
 
 ### Deprecated
 - 
 
 ### Removed
-- Removed old mailbox mesh
-- Removed Cams asset folder
-- Removed Old asset folder
+- 
 
 ### Fixed
-- Fixed collision for broken road mesh
-- Fixed collision for grass mesh
+- 
 
 ### Security
 - 
+
+# [0.3.0] - 2026-02-25
+
+### Added
+- Added Textures for subway, Plants (Artists)
+- Added Flame BP in AssetOverview Level (Artists)
+- Added new fixed version of mail box (Artists)
+- Added textures to plant assets (Artists)
+- Added plant assets to Lv_Assetoverview (Artists)
+- Added Floor,ceiling asset for chaos (Artists)
+- Added Empty building for chaos (Artists)
+- Added more buildings in level1 (Artists)
+- Added test level for level streaming `Content/Levels/CodersTestLevels/LVL_Streaming/LV_CodeTest_4.umap`
+- Added setup for future functionality for a master pawn/player for authority for Sifan `Content/Blueprints/BP_GameState.uasset`
+- Added Aim Assist feature MVP `Content/Custom_Shooter/Shooter_BPs/BP_ShooterPlayer.uasset`
+- Added Race Standings Feature
+- Added Standings Enum `Content/DataStuctures/F_Standings.uasset`
+- Added Race Standing Widget `Content/UI/WBP_RaceStandings.uasset`
+- Added Track Spline Actor `Source/DeathRace/TrackSplineBakerActor.h`
+
+### Changed
+- Changed Master material for MI_Plants_YDJ (Artists)
+- Changed asset location of oldAssetsCombined to NewAssets_Forlevel Folder (Artists)
+- Changed Lighting (Artists)
+- Changed Dongjoos building assets to new asset folder (Artists)
+- Moved Cams asset to newasset folder (Artists)
+- Player State now holds position, nitro and team information based on the player's role. `Content/Networking/BP_PlayerState.uasset`
+- Updated logic for level streaming `Content/Levels/CodersTestLevels/LVL_Streaming/LV_CodeTest_4.umap`
+- Edited gamemode to include the setting of teams `Content/Blueprints/BP_GameMode_Countdown.uasset`
+- updated game state to allow team setting and storing between game state and player state `Content/Blueprints/BP_GameState.uasset`
+- Integrate level stream feature with Checkpoint_SW. `Content/Levels/TestLevel_Buleprint/Checkpoint_SW.uasset`
+- Updated player controller to read race standings info `Content/Blueprints/BP_PlayerController_Countdown.uasset`
+
+### Removed
+- Removed old mailbox mesh (Artists)
+- Removed Cams asset folder (Artists)
+- Removed Old asset folder (Artists)
+
+### Fixed
+- Fixed collision for broken road mesh (Artists)
+- Fixed collision for grass mesh (Artists)
+- updated character select to remove shooter pawns ability to create a session as they need the driver to exist `Content/Networking/W_Character_Select.uasset`
+- fixed bug in player controller where the sim booleans wouldn't be updated `Content/Blueprints/BP_PlayerController_Countdown.uasset`
 
 
 ## [0.2.0] - 2026-02-19
