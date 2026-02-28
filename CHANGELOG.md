@@ -8,10 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- 
+- Added more subway assets in leve3
 
 ### Changed
--
+- Changed sized of level3
+- Changed landscape on level 2, 2-2, 3, 4. 
+- Made all levels align  
 
 ### Deprecated
 - 
@@ -20,7 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 
 
 ### Fixed
-- 
+- Fixed Tunnel in level3
 
 ### Security
 -
