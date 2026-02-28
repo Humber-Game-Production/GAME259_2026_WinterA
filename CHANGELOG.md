@@ -23,7 +23,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 
 
 ### Security
-- 
+-
+
+# [0.3.1] - 2026-02-27
+
+### Changed
+- Changed location of assets
+- Moved Kaylas Assets
+- Assigned Some Textures 
+
+### Removed
+- Deleted Alyshas and Zanias assets
+
 
 # [0.3.0] - 2026-02-25
 
