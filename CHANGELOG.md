@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Added more subway assets in leve3
 - Added some floors to 2.2 building
+- Added all floors to 2.2 building
+- Added plants 2.2
 
 ### Changed
 - Changed sized of level3
