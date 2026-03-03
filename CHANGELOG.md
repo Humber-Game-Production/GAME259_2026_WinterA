@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added all floors to 2.2 building
 - Added plants 2.2
 - Added BP_LampPost_KMP
+- Added Leaf Particle System 
 
 ### Changed
 - Changed sized of level3
