@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added plants 2.2
 - Added BP_LampPost_KMP
 - Added Leaf Particle System 
+- Added more plants and trash around 2.1 map
 
 ### Changed
 - Changed sized of level3
