@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed sized of level3
 - Changed landscape on level 2, 2-2, 3, 4. 
 - Made all levels align  
+- Changed NS_ElectricalSpark_KMP made orange and turned loop off
 
 ### Deprecated
 - 
