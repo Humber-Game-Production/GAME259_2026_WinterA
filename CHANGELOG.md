@@ -8,19 +8,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- 
+- Added VFX for nitro boost in `BP_VehicleAdvSportsCar_0`
+- Added `NS_ElectricalSpark_KMP_One_Shot_Copy` to use as a placeholder effect
 
 ### Changed
--
+- Added a `TeamId` variable to `BP_VehicleAdvPawnBase` so that a player can know the ID of other vehicles
+- Edited `BP_PlayerController_Countdown.uasset` to set player state on vehicle pawn
+- Renamed `OnHitSound` to `HandleHit`
+- Updated `HandleHit` to handle both sound and visual effects
 
 ### Deprecated
 - 
 
 ### Removed
-- 
+- Deleted `BP_VehicleAdvSportsCar_LookBack_Nitro` as the changes were already merged.
 
 ### Fixed
-- 
+- Fixed a bug on `BP_VehicleAdvPawnBase` where the Nitro would not stop after releasing the button
 
 ### Security
 -
