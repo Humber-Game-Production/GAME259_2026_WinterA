@@ -21,6 +21,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed landscape on level 2, 2-2, 3, 4. 
 - Made all levels align  
 - Changed NS_ElectricalSpark_KMP made orange and turned loop off
+- Updated `Source/DeathRace/TrackSplineBakerActor.cpp` to handle multiple splines for level streaming
+- Updated `Content/Levels/LevelDeisgnLevels/L_MasterLevel.umap` with a track spline to work with standings.
 
 ### Deprecated
 - 
