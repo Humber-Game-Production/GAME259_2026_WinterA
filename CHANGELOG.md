@@ -8,9 +8,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- 
+- Added more subway assets in leve3
+- Added some floors to 2.2 building
+- Added all floors to 2.2 building
+- Added plants 2.2
+- Added BP_LampPost_KMP
+- Added Leaf Particle System 
+- Added more plants and trash around 2.1 map
 
 ### Changed
+- Changed sized of level3
+- Changed landscape on level 2, 2-2, 3, 4. 
+- Made all levels align  
+- Changed NS_ElectricalSpark_KMP made orange and turned loop off
 - Updated `Source/DeathRace/TrackSplineBakerActor.cpp` to handle multiple splines for level streaming
 - Updated `Content/Levels/LevelDeisgnLevels/L_MasterLevel.umap` with a track spline to work with standings.
 
@@ -21,7 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 
 
 ### Fixed
-- 
+- Fixed Tunnel in level3
 
 ### Security
 -
