@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Edited `BP_PlayerController_Countdown.uasset` to set player state on vehicle pawn
 - Renamed `OnHitSound` to `HandleHit`
 - Updated `HandleHit` to handle both sound and visual effects
-
+- Updated Respawn on checkpoint logic to have a small timer before respawning on `BP_VehicleAdvPawnBase` and `BP_PlayerController_Countdown.uasset`
 ### Deprecated
 - 
 
@@ -25,7 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - Fixed a bug on `BP_VehicleAdvPawnBase` where the Nitro would not stop after releasing the button
-
+- Fixed look back camera to not focus on the shooter pawn.
 ### Security
 -
 
