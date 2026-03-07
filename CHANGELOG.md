@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added BP_LampPost_KMP
 - Added Leaf Particle System 
 - Added more plants and trash around 2.1 map
+- Added Train blueprint to map
 
 ### Changed
 - Changed sized of level3
@@ -23,6 +24,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed NS_ElectricalSpark_KMP made orange and turned loop off
 - Updated `Source/DeathRace/TrackSplineBakerActor.cpp` to handle multiple splines for level streaming
 - Updated `Content/Levels/LevelDeisgnLevels/L_MasterLevel.umap` with a track spline to work with standings.
+- Changed Train Blueprint 
+
 
 ### Deprecated
 - 
