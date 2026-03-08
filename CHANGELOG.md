@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Added VFX for nitro boost in `BP_VehicleAdvSportsCar_0`
 - Added `NS_ElectricalSpark_KMP_One_Shot_Copy` to use as a placeholder effect
+- Added FMOD Implementation to car pawn base
+- Added test sound assets and implementation for metallic collision sound
+- Fixed Engine SFX not playing after a collision
 
 ### Changed
 - Added a `TeamId` variable to `BP_VehicleAdvPawnBase` so that a player can know the ID of other vehicles
