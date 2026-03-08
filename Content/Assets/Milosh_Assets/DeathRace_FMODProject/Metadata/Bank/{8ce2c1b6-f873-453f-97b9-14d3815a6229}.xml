@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Bank" id="{8ce2c1b6-f873-453f-97b9-14d3815a6229}">
+		<property name="name">
+			<value>Collision Sounds</value>
+		</property>
+		<relationship name="folder">
+			<destination>{70f78421-81c1-4c80-8e38-fce206cb7dd1}</destination>
+		</relationship>
+	</object>
+</objects>
