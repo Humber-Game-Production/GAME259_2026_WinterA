@@ -8,13 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Added more subway assets in leve3
+- Added some floors to 2.2 building
+- Added all floors to 2.2 building
+- Added plants 2.2
+- Added BP_LampPost_KMP
+- Added Leaf Particle System 
+- Added more plants and trash around 2.1 map
+- Added Train blueprint to map
+
+### Changed
 - Added VFX for nitro boost in `BP_VehicleAdvSportsCar_0`
 - Added `NS_ElectricalSpark_KMP_One_Shot_Copy` to use as a placeholder effect
 - Added FMOD Implementation to car pawn base
 - Added test sound assets and implementation for metallic collision sound
 - Fixed Engine SFX not playing after a collision
-
-### Changed
 - Added a `TeamId` variable to `BP_VehicleAdvPawnBase` so that a player can know the ID of other vehicles
 - Edited `BP_PlayerController_Countdown.uasset` to set player state on vehicle pawn
 - Renamed `OnHitSound` to `HandleHit`
@@ -33,6 +41,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed NS_ElectricalSpark_KMP made orange and turned loop off
 - Updated `Source/DeathRace/TrackSplineBakerActor.cpp` to handle multiple splines for level streaming
 - Updated `Content/Levels/LevelDeisgnLevels/L_MasterLevel.umap` with a track spline to work with standings.
+- Changed Train Blueprint 
+- Reimported vines and Targets
+
 
 ### Deprecated
 - 
