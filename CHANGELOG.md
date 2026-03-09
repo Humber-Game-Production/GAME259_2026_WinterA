@@ -18,6 +18,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Train blueprint to map
 
 ### Changed
+- Added VFX for nitro boost in `BP_VehicleAdvSportsCar_0`
+- Added `NS_ElectricalSpark_KMP_One_Shot_Copy` to use as a placeholder effect
+- Added FMOD Implementation to car pawn base
+- Added test sound assets and implementation for metallic collision sound
+- Fixed Engine SFX not playing after a collision
+- Added a `TeamId` variable to `BP_VehicleAdvPawnBase` so that a player can know the ID of other vehicles
+- Edited `BP_PlayerController_Countdown.uasset` to set player state on vehicle pawn
+- Renamed `OnHitSound` to `HandleHit`
+- Updated `HandleHit` to handle both sound and visual effects
+- Updated Respawn on checkpoint logic to have a small timer before respawning on `BP_VehicleAdvPawnBase` and `BP_PlayerController_Countdown.uasset`
+- Added more subway assets in leve3
+- Added some floors to 2.2 building
+- Added all floors to 2.2 building
+- Added plants 2.2
+- Added BP_LampPost_KMP
+- Added Leaf Particle System 
+- Added more plants and trash around 2.1 map
 - Changed sized of level3
 - Changed landscape on level 2, 2-2, 3, 4. 
 - Made all levels align  
@@ -32,9 +49,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 
 
 ### Removed
-- 
+- Deleted `BP_VehicleAdvSportsCar_LookBack_Nitro` as the changes were already merged.
 
 ### Fixed
+- Fixed a bug on `BP_VehicleAdvPawnBase` where the Nitro would not stop after releasing the button
+- Fixed look back camera to not focus on the shooter pawn.
 - Fixed Tunnel in level3
 
 ### Security
