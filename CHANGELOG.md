@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated `Source/DeathRace/TrackSplineBakerActor.cpp` to handle multiple splines for level streaming
 - Updated `Content/Levels/LevelDeisgnLevels/L_MasterLevel.umap` with a track spline to work with standings.
 - Changed Train Blueprint 
+- Reimported vines and Targets
 
 
 ### Deprecated
