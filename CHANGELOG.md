@@ -64,10 +64,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed Train Blueprint 
 - Reimported vines and Targets
 
-
-### Deprecated
-- 
-
 ### Removed
 - Deleted `BP_VehicleAdvSportsCar_LookBack_Nitro` as the changes were already merged.
 
@@ -75,9 +71,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed a bug on `BP_VehicleAdvPawnBase` where the Nitro would not stop after releasing the button
 - Fixed look back camera to not focus on the shooter pawn.
 - Fixed Tunnel in level3
-
-### Security
--
 
 # [0.3.1] - 2026-02-27
 
