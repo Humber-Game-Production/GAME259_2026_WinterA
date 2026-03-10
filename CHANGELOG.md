@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Car, tire mesh in contant browser
 
 ### Changed
-- 
+- Merged House in lv4. replaced one house with merged one
 
 ### Deprecated
 - 
