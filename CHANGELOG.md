@@ -8,11 +8,42 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- 
+
+### Changed
+- 
+
+### Deprecated
+- 
+
+### Removed
+- 
+
+### Fixed
+- 
+
+### Security
+-
+# [0.5.0] - 2026-03-12
+
+### Added
 - Added Car, tire mesh in contant browser
 - Added concrete walls to block lighting in lv3
 - Added vines in lv1
+- Added WBP_Timer and fonts
+- set up niagara effects for buildings 1-4
+- added more assets, green stuff in lv1
+- added subway lights between dark areas and some graffiti
+- Added foliage and some trash on road
+- Added Vertex Painting in Lvl 1
+- imported gun,character meshs with animation sequences.
+- Added a modular level loader/unloader
+- Added audio component to pawn base
+- Added trigger blueprint functionality with FMOD
+
 ### Changed
-- Merged House in lv4. replaced one house with merged one
+- Changed grass size
+- Main Menu Overhaul + Nitro Transfer Commit
 
 ### Deprecated
 - 
