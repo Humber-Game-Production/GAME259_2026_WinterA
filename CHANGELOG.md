@@ -8,10 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- 
+- Added Zanias car texutres and assigned.
 
 ### Changed
-- 
+- Changed Pile Conllision in lv3
 
 ### Deprecated
 - 
