@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Added Zanias car texutres and assigned.
+- Added more plants and stuff around lv 2.1
 
 ### Changed
 - Changed Pile Conllision in lv3
