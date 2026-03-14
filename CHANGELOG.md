@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Zanias car texutres and assigned.
 - Added more plants and stuff around lv 2.1
 - Added background buildings and houses 2.1
+- Added more assets in lv3, vines, ceiling.
 
 ### Changed
 - Changed Pile Conllision in lv3
