@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Placed more assets in lv4
 - Made collision wall assets so players can not go off track
 - Added more vines in lv1
+- Added small assets in lv1, finalized lv1
 
 ### Changed
 - Changed Pile Conllision in lv3
@@ -25,7 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 
 
 ### Removed
-- 
+- Removed background building, house Collision 
 
 ### Fixed
 - Fixed tree collision 
