@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added more plants and stuff around lv 2.1
 - Added background buildings and houses 2.1
 - Added more assets in lv3, vines, ceiling.
+- Added more assets in lv1.
+- Made PPV in lv4 for connecting ending lv
+- Placed more assets in lv4
+- Made collision wall assets so players can not go off track
 
 ### Changed
 - Changed Pile Conllision in lv3
@@ -23,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 
 
 ### Fixed
-- 
+- Fixed tree collision 
 
 ### Security
 -
