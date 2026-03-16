@@ -8,10 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- 
+- Added `CommonLoadingScreen` to handle our loading screen
+- Added `WBP_LoadingScreen` widget to display the loading screen
 
 ### Changed
-- 
+- Added loading events for the `BP_PlayerController_Countdown`.
+- Changed the name of `W_Character_Select` to `WBP_CharacterSelect` and added load events onto it.
+- Changed the name of `W_MainMenu` to `WBP_Character_Select` and added load events onto it.
 
 ### Deprecated
 - 
@@ -20,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 
 
 ### Fixed
-- 
+- Added an array check in `BP_GameMode_Countdown` to avoid logging of errors when trying to find splines
 
 ### Security
 -

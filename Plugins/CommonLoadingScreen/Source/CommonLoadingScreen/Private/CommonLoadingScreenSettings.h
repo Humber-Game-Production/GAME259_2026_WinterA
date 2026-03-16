@@ -56,8 +56,8 @@ public:
 
 	// Should we apply the additional HoldLoadingScreenAdditionalSecs delay even in the editor
 	// (useful when iterating on loading screens)
-	UPROPERTY(Transient, EditAnywhere, Category=Debugging)
-	bool HoldLoadingScreenAdditionalSecsEvenInEditor = false;
+	UPROPERTY(config, EditAnywhere, Category=Debugging)
+	bool HoldLoadingScreenAdditionalSecsEvenInEditor = true;
 
 	// Should we apply the additional HoldLoadingScreenAdditionalSecs delay even in the editor
 	// (useful when iterating on loading screens)
