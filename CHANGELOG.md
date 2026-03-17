@@ -24,6 +24,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - Added an array check in `BP_GameMode_Countdown` to avoid logging of errors when trying to find splines
+- Fixed Speedometer not working with networking
+- Fixed Checkpoint Respawn Logic to work with networking.
 
 ### Security
 -
