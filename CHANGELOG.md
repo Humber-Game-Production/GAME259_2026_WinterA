@@ -15,17 +15,45 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added loading events for the `BP_PlayerController_Countdown`.
 - Changed the name of `W_Character_Select` to `WBP_CharacterSelect` and added load events onto it.
 - Changed the name of `W_MainMenu` to `WBP_Character_Select` and added load events onto it.
+- Added Zanias car texutres and assigned.
+- Added more plants and stuff around lv 2.1
+- Added background buildings and houses 2.1
+- Added more assets in lv3, vines, ceiling.
+- Added more assets in lv1.
+- Made PPV in lv4 for connecting ending lv
+- Placed more assets in lv4
+- Made collision wall assets so players can not go off track
+- Added more vines in lv1
+- Added small assets in lv1, finalized lv1
+- Made L_lightingSetDump for backing up lighting sets. 
+- Adde T_SimStaff_texture
+- Create MI for simstaff decal
+- Paced Simstaff Decals in all levels
+- Adde a collision box in lv3 
+- Added a StopTransfer event to close the point transfer gate [BP_ShooterPlayer]
+- Added a delay to the bullet destroying itself when hitting a non-chaos object to give time for the nitro code to run [BP_Bullet]
+- Added a Set Torque Mult call to Chaos Impact Field [BP_Bullet]
+- Changed Pile Conllision in lv3
+- Switched Increase points event from running on the owning client to running on server [BP_ShooterPlayer]
+- Made HP and MaxHP variables public. Changed MaxHP from 3 to 1 [BP_Target]
+- Renamed Trun Everything On event to Turn Everything On [BP_Target]
+- Prettied up blueprint arrangements [BP_ShooterPlayer, BP_Target, BP_Bullet]
 
 ### Deprecated
 - 
 
 ### Removed
-- 
+- Removed background building, house Collision 
+- Deleted debug print string calls and depricated/unused code blocks [BP_ShooterPlayer, BP_Target, BP_Bullet]
+- Removed Zahir's erroneous implementation of nitro transfer; he made it transfer all at once, rather than over time [BP_ShooterPlayer]
 
 ### Fixed
 - Added an array check in `BP_GameMode_Countdown` to avoid logging of errors when trying to find splines
 - Fixed Speedometer not working with networking
 - Fixed Checkpoint Respawn Logic to work with networking.
+- Fixed tree collision 
+- Fixed MI_Foliage warning log
+- turned on nanite for some assets to optimize
 
 ### Security
 -
