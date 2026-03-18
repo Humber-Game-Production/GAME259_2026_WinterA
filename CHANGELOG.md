@@ -23,14 +23,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Create MI for simstaff decal
 - Paced Simstaff Decals in all levels
 - Adde a collision box in lv3 
+- Added a StopTransfer event to close the point transfer gate [BP_ShooterPlayer]
+- Added a delay to the bullet destroying itself when hitting a non-chaos object to give time for the nitro code to run [BP_Bullet]
+- Added a Set Torque Mult call to Chaos Impact Field [BP_Bullet]
 ### Changed
 - Changed Pile Conllision in lv3
+- Switched Increase points event from running on the owning client to running on server [BP_ShooterPlayer]
+- Made HP and MaxHP variables public. Changed MaxHP from 3 to 1 [BP_Target]
+- Renamed Trun Everything On event to Turn Everything On [BP_Target]
+- Prettied up blueprint arrangements [BP_ShooterPlayer, BP_Target, BP_Bullet]
 
 ### Deprecated
 - 
 
 ### Removed
 - Removed background building, house Collision 
+- Deleted debug print string calls and depricated/unused code blocks [BP_ShooterPlayer, BP_Target, BP_Bullet]
+- Removed Zahir's erroneous implementation of nitro transfer; he made it transfer all at once, rather than over time [BP_ShooterPlayer]
 
 ### Fixed
 - Fixed tree collision 
