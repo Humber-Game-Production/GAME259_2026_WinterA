@@ -19,7 +19,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added more vines in lv1
 - Added small assets in lv1, finalized lv1
 - Made L_lightingSetDump for backing up lighting sets. 
-
+- Adde T_SimStaff_texture
+- Create MI for simstaff decal
+- Paced Simstaff Decals in all levels
+- Adde a collision box in lv3 
 ### Changed
 - Changed Pile Conllision in lv3
 
