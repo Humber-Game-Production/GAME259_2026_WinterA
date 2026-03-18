@@ -34,6 +34,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - Fixed tree collision 
+- Fixed MI_Foliage warning log
+- turned on nanite for some assets to optimize
 
 ### Security
 -
