@@ -8,6 +8,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- 
+
+### Changed
+- 
+
+### Deprecated
+- 
+
+### Removed
+- 
+
+### Fixed
+- 
+
+## [0.6.0] - 2026-03-18
+
+### Added
 - Added `CommonLoadingScreen` to handle our loading screen
 - Added `WBP_LoadingScreen` widget to display the loading screen
 
