@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Added Pause Menu.
 - Second player now uses the alternative car and driver
+- Headlights now turn on when you reach the first subway checkpoint.
 
 ### Changed
 - 
