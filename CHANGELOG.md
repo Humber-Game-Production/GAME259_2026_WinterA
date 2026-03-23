@@ -8,7 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- 
+- Added Pause Menu.
+- Second player now uses the alternative car and driver
+- Headlights now turn on when you reach the first subway checkpoint.
 
 ### Changed
 - 
@@ -20,7 +22,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 
 
 ### Fixed
-- 
+- Fixed spawning of ShooterPawn to avoid duplicates
+- Fixed duplicate audio bugs
 
 ## [0.6.0] - 2026-03-18
 
