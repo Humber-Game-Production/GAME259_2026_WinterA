@@ -8,10 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- 
+- Added support for input states `Started` and `Completed` on the Racing Sims wheel inputs
+
 
 ### Changed
--
+- Updated the Racing Sim wheel buttons to use the same functions as the controller input actions
 
 ### Deprecated
 - 
