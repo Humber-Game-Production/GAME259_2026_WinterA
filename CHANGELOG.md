@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Headlights now turn on when you reach the first subway checkpoint.
 
 ### Changed
-- 
+- Changed the level lighting
 
 ### Deprecated
 - 
@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Fixed spawning of ShooterPawn to avoid duplicates
 - Fixed duplicate audio bugs
+- Optimized Levels by disabling collisions
 
 ## [0.6.0] - 2026-03-18
 
