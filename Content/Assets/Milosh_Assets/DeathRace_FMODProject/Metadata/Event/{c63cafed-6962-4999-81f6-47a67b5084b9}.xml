@@ -5,7 +5,7 @@
 			<value>Vehicle_Engine</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f571c628-20c4-4587-9a49-a31caf3ea17f}</destination>
@@ -75,6 +75,9 @@
 	<object class="EventAutomatableProperties" id="{ba630a33-c4f1-452e-86b5-4808a6f4a1ea}">
 		<property name="isPersistent">
 			<value>true</value>
+		</property>
+		<property name="maxVoices">
+			<value>2</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{5871ff4e-7fec-4200-b073-7a6383c57af9}" />
@@ -505,6 +508,7 @@
 	<object class="MixerBusEffectChain" id="{b6a792c4-1986-4b57-8068-4f3409131ac9}">
 		<relationship name="effects">
 			<destination>{f8f8c64c-f1a1-44d4-80e1-063f6142d91b}</destination>
+			<destination>{a8167cfb-87ae-4f6d-a8bd-8dbabf0cfd02}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9f881c88-3188-4611-8745-3f744c525b36}" />
@@ -850,6 +854,7 @@
 	</object>
 	<object class="MixerBusFader" id="{c5adf1ab-8391-457c-a129-82abcab87d24}" />
 	<object class="MixerBusFader" id="{f8f8c64c-f1a1-44d4-80e1-063f6142d91b}" />
+	<object class="SpatialiserEffect" id="{a8167cfb-87ae-4f6d-a8bd-8dbabf0cfd02}" />
 	<object class="AutomationPoint" id="{ebd9a8b2-15b8-476a-a411-51b0f07bd7f8}">
 		<property name="position">
 			<value>5</value>

@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 
 
 ### Changed
-- 
+-
 
 ### Deprecated
 - 
@@ -21,6 +21,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - 
+
+## [0.7.0] - 2026-03-23
+
+### Added
+- Added Pause Menu.
+- Second player now uses the alternative car and driver
+- Headlights now turn on when you reach the first subway checkpoint.
+
+### Changed
+- Changed the level lighting
+
+### Deprecated
+- 
+
+### Removed
+- 
+
+### Fixed
+- Fixed spawning of ShooterPawn to avoid duplicates
+- Fixed duplicate audio bugs
+- Optimized Levels by disabling collisions
 
 ## [0.6.0] - 2026-03-18
 
