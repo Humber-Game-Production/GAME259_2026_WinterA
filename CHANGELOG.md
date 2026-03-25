@@ -11,16 +11,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 
 
 ### Changed
--
-
+- 
 ### Deprecated
 - 
 
 ### Removed
 - 
 
+## [0.8.0] - 2026-03-25
+
+### Added
+- Added support for input states `Started` and `Completed` on the Racing Sims wheel inputs
+- Added Dynamic building in level 2.2
+- Added end screen and credits rolls
+- Added more targets to level 3 and 4
+
+
+### Changed
+- Updated the Racing Sim wheel buttons to use the same functions as the controller input actions
+- Updated checkpoint positioning in subway
+- Updated main menu design.
+
 ### Fixed
-- 
+- Fixed big center building that falls down
+- Fix some controller errors
 
 ## [0.7.0] - 2026-03-23
 
