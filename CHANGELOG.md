@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Players are now given a respawn point as soon as the race starts.
 - Checkpoint Blueprint got reworked to work with networking.
 - Nitro Boost effect now correctly spawn for Spike's car
+- Level streaming now requires both cars to pass the streamer to unload the level only if there is more than one player
 
 ### Deprecated
 - 
