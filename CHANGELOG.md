@@ -11,7 +11,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 
 
 ### Changed
-- 
+- Train on subway only runs once, triggered by the server when a car pawn crosses.
+- Checkpoint Reached Text got a visual overhaul.
+- Changed Overall UI to the new Artstyle.
+- Checkpoints now have different spawn points depending on which team you are on to avoid collisions.
+- Nitro Boost effects got changed to a new, more efficient VFX.
+- Updated Victory animations Flame Rider and Spike.
+
+### Fixed
+- Headlights now turn on via the server so all players can see the headlights on.
+- Players are now given a respawn point as soon as the race starts.
+- Checkpoint Blueprint got reworked to work with networking.
+- Nitro Boost effect now correctly spawn for Spike's car
+
 ### Deprecated
 - 
 
