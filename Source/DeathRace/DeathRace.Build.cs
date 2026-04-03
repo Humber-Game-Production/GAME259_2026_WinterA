@@ -9,7 +9,7 @@ public class DeathRace : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		PublicDependencyModuleNames.AddRange(new string[]
-			{ "Core", "CoreUObject", "Engine", "InputCore", "Landscape" });
+			{ "Core", "CoreUObject", "Engine", "InputCore", "Landscape", "Sockets", "Networking" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 
