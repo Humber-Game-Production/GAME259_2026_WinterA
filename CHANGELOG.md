@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- 
+- Added full credits to the end screen.
 
 ### Changed
 - Train on subway only runs once, triggered by the server when a car pawn crosses.
@@ -17,6 +17,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Checkpoints now have different spawn points depending on which team you are on to avoid collisions.
 - Nitro Boost effects got changed to a new, more efficient VFX.
 - Updated Victory animations Flame Rider and Spike.
+- The End screen is now client side to avoid networking errors
+- Edited visual style of end screen for each winner
+- Editet the Game instance to override Network Error Handling.
 
 ### Fixed
 - Headlights now turn on via the server so all players can see the headlights on.
