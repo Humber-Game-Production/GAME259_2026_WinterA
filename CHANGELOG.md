@@ -8,6 +8,53 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Added full credits to the end screen.
+
+### Changed
+- Train on subway only runs once, triggered by the server when a car pawn crosses.
+- Checkpoint Reached Text got a visual overhaul.
+- Changed Overall UI to the new Artstyle.
+- Checkpoints now have different spawn points depending on which team you are on to avoid collisions.
+- Nitro Boost effects got changed to a new, more efficient VFX.
+- Updated Victory animations Flame Rider and Spike.
+- The End screen is now client side to avoid networking errors
+- Edited visual style of end screen for each winner
+- Editet the Game instance to override Network Error Handling.
+
+### Fixed
+- Headlights now turn on via the server so all players can see the headlights on.
+- Players are now given a respawn point as soon as the race starts.
+- Checkpoint Blueprint got reworked to work with networking.
+- Nitro Boost effect now correctly spawn for Spike's car
+- Level streaming now requires both cars to pass the streamer to unload the level only if there is more than one player
+
+### Deprecated
+- 
+
+### Removed
+- 
+
+## [0.8.0] - 2026-03-25
+
+### Added
+- Added support for input states `Started` and `Completed` on the Racing Sims wheel inputs
+- Added Dynamic building in level 2.2
+- Added end screen and credits rolls
+- Added more targets to level 3 and 4
+
+
+### Changed
+- Updated the Racing Sim wheel buttons to use the same functions as the controller input actions
+- Updated checkpoint positioning in subway
+- Updated main menu design.
+
+### Fixed
+- Fixed big center building that falls down
+- Fix some controller errors
+
+## [0.7.0] - 2026-03-23
+
+### Added
 - Added Pause Menu.
 - Second player now uses the alternative car and driver
 - Headlights now turn on when you reach the first subway checkpoint.
