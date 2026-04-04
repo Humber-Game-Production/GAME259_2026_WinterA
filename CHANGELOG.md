@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Added full credits to the end screen.
+- Nitro Bar UI now uses a local predictive nitro value instead of the server nitro for better visuals.
+- Added Nitro Snapshot variable among others to synchronize prediction UI and server nitro.
 
 ### Changed
 - Train on subway only runs once, triggered by the server when a car pawn crosses.
@@ -19,7 +21,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated Victory animations Flame Rider and Spike.
 - The End screen is now client side to avoid networking errors
 - Edited visual style of end screen for each winner
-- Editet the Game instance to override Network Error Handling.
+- Edited the Game instance to override Network Error Handling.
+- Did an Overhaul of Nitro to be Server Authoritative.
+- Nitro now updates on a timer every 0.1 seconds to avoid networking stress.
+- Nitro is now calculated using a formula affected by booleans, including nitro transfer.
+- Nitro InputAction now triggers on Start, rather on every tick while holding the button.
 
 ### Fixed
 - Headlights now turn on via the server so all players can see the headlights on.
@@ -32,7 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 
 
 ### Removed
-- 
+- Removed unused Checkpoint start and finish line blueprints
 
 ## [0.8.0] - 2026-03-25
 
