@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{63eca10b-78dd-4b9e-b479-b7cd136af11d}">
+		<property name="assetPath">
+			<value>Music/Transition_Into FinalStretch-St.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.2785625</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2716fc1e-bb13-4ee0-8232-a97d126b25cf}</destination>
+		</relationship>
+	</object>
+</objects>

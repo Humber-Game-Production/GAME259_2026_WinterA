@@ -60,7 +60,7 @@
 			<destination>{97ee3a68-c234-4229-8a9d-a47b61d6ea7f}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6499b66b-85f8-4946-85fc-8ed71b3dbc4e}</destination>
+			<destination>{46fac054-8d96-43ea-af1f-6dfda3cc2931}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{f7637992-e248-49b9-bbce-34aad509904a}">
@@ -208,10 +208,10 @@
 			<value>true</value>
 		</property>
 		<property name="start">
-			<value>3000</value>
+			<value>2700</value>
 		</property>
 		<property name="length">
-			<value>2800</value>
+			<value>3100</value>
 		</property>
 		<property name="voiceStealing">
 			<value>3</value>
@@ -324,7 +324,7 @@
 			<value>100</value>
 		</property>
 		<property name="length">
-			<value>1300</value>
+			<value>1600</value>
 		</property>
 		<property name="maxVoices">
 			<value>1</value>
@@ -399,7 +399,6 @@
 		<property name="maxVoices">
 			<value>1</value>
 		</property>
-		<property name="name" />
 		<property name="volume">
 			<value>-8.5</value>
 		</property>
@@ -608,6 +607,9 @@
 		<property name="root">
 			<value>2700</value>
 		</property>
+		<property name="pitchAtMinimum">
+			<value>0.224999994</value>
+		</property>
 	</object>
 	<object class="FadeCurve" id="{22f02b1c-e92d-417e-8056-7ce146c17b12}">
 		<relationship name="startPoint">
@@ -743,7 +745,7 @@
 	</object>
 	<object class="AutomationPoint" id="{d1251312-74bb-49c8-af60-2f28038120eb}">
 		<property name="position">
-			<value>3000</value>
+			<value>2700</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -754,7 +756,7 @@
 	</object>
 	<object class="AutomationPoint" id="{0692bff9-ec18-45ef-81ea-e4ba346f00bd}">
 		<property name="position">
-			<value>4000</value>
+			<value>3700</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -895,7 +897,7 @@
 	</object>
 	<object class="AutomationPoint" id="{6f94137c-ee7c-4ee7-916d-b9cfc4723b0e}">
 		<property name="position">
-			<value>1200</value>
+			<value>1500</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -906,7 +908,7 @@
 	</object>
 	<object class="AutomationPoint" id="{95bce073-70b3-4e9c-8915-c5c52abdd107}">
 		<property name="position">
-			<value>1400</value>
+			<value>1700</value>
 		</property>
 		<property name="value">
 			<value>0</value>

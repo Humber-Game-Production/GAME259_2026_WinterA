@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{cb9ff2a2-1877-4cf6-99e1-00671d9aa799}">
+		<property name="assetPath">
+			<value>Music/Subway-Guitar Melody-St.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>64</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2716fc1e-bb13-4ee0-8232-a97d126b25cf}</destination>
+		</relationship>
+	</object>
+</objects>

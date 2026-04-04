@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{5ffc48cc-f2be-4d43-8ff8-506293f54a81}">
+	<object class="AudioFile" id="{05d59e05-ea2e-4f38-9a5d-dca2a2d27e83}">
 		<property name="assetPath">
-			<value>Music/Cogwork Dancers DPPT.wav</value>
+			<value>Music/FinalStretch-Rythm guitar-St.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>44.0999985</value>
+			<value>48</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>65.200000000000003</value>
+			<value>17.860458333333334</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{2716fc1e-bb13-4ee0-8232-a97d126b25cf}</destination>
