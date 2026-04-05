@@ -847,7 +847,7 @@ Recordings by David Nichols of Track Time Audio. Engine is a 1985 Mercedes-Benz 
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-0.479999989</value>
+			<value>-2.07999992</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{da27b5b6-341a-49a6-92a6-34682074d28f}">
@@ -855,7 +855,7 @@ Recordings by David Nichols of Track Time Audio. Engine is a 1985 Mercedes-Benz 
 			<value>-1</value>
 		</property>
 		<property name="value">
-			<value>-1.39999998</value>
+			<value>-3</value>
 		</property>
 	</object>
 	<object class="Automator" id="{e6c5416e-4e53-41c0-857f-6e59051326e9}">
