@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added full credits to the end screen.
 - Nitro Bar UI now uses a local predictive nitro value instead of the server nitro for better visuals.
 - Added Nitro Snapshot variable among others to synchronize prediction UI and server nitro.
+- Nitro transfer got updated with a similar server/client logic used for the car's nitro
 
 ### Changed
 - Train on subway only runs once, triggered by the server when a car pawn crosses.
@@ -33,6 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Checkpoint Blueprint got reworked to work with networking.
 - Nitro Boost effect now correctly spawn for Spike's car
 - Level streaming now requires both cars to pass the streamer to unload the level only if there is more than one player
+- Updated the Nitro Tank texture to be the orange version and use correct percentages.
 
 ### Deprecated
 - 
