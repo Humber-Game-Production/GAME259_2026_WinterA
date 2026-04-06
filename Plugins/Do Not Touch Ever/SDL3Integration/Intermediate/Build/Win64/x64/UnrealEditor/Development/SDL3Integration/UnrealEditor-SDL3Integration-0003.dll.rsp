@@ -36,10 +36,14 @@
 /FUNCTIONPADMIN:6
 /NOIMPLIB
 /NOEXP
-"C:/Team A Productions 2 2026/Intermediate/Build/Win64/x64/DeathRaceEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.obj"
-"C:/Team A Productions 2 2026/Plugins/Do Not Touch Ever/SDL3Integration/Intermediate/Build/Win64/x64/UnrealEditor/Development/SDL3Integration/Module.SDL3Integration.cpp.obj"
-"C:/Team A Productions 2 2026/Plugins/Do Not Touch Ever/SDL3Integration/Intermediate/Build/Win64/x64/UnrealEditor/Development/SDL3Integration/Default.rc2.res"
-"C:/Team A Productions 2 2026/Plugins/Do Not Touch Ever/SDL3Integration/Source/ThirdParty/SDL3/Lib/Win64/SDL3.lib"
+"C:/Unreal/DLLTest_1028_AL_2/Intermediate/Build/Win64/x64/DLLTest_1028_AL_2Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"C:/Unreal/DLLTest_1028_AL_2/Plugins/SDL3Integration/SDL3Integration/Intermediate/Build/Win64/x64/UnrealEditor/Development/SDL3Integration/Module.SDL3Integration.cpp.obj"
+"C:/Unreal/DLLTest_1028_AL_2/Plugins/SDL3Integration/SDL3Integration/Intermediate/Build/Win64/x64/UnrealEditor/Development/SDL3Integration/SDL3Integration.cpp.obj"
+"C:/Unreal/DLLTest_1028_AL_2/Plugins/SDL3Integration/SDL3Integration/Intermediate/Build/Win64/x64/UnrealEditor/Development/SDL3Integration/USDL3InputComponent.cpp.obj"
+"C:/Unreal/DLLTest_1028_AL_2/Plugins/SDL3Integration/SDL3Integration/Intermediate/Build/Win64/x64/UnrealEditor/Development/SDL3Integration/USDL3Log.cpp.obj"
+"C:/Unreal/DLLTest_1028_AL_2/Plugins/SDL3Integration/SDL3Integration/Intermediate/Build/Win64/x64/UnrealEditor/Development/SDL3Integration/USDLJoystickSubsystem.cpp.obj"
+"C:/Unreal/DLLTest_1028_AL_2/Plugins/SDL3Integration/SDL3Integration/Intermediate/Build/Win64/x64/UnrealEditor/Development/SDL3Integration/Default.rc2.res"
+"C:/Unreal/DLLTest_1028_AL_2/Plugins/SDL3Integration/SDL3Integration/Source/ThirdParty/SDL3/Lib/Win64/SDL3.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/Core/UnrealEditor-Core.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/CoreUObject/UnrealEditor-CoreUObject.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/Engine/UnrealEditor-Engine.lib"
@@ -69,6 +73,6 @@
 "synchronization.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"C:/Team A Productions 2 2026/Plugins/Do Not Touch Ever/SDL3Integration/Binaries/Win64/UnrealEditor-SDL3Integration-0003.dll"
-/PDB:"C:/Team A Productions 2 2026/Plugins/Do Not Touch Ever/SDL3Integration/Binaries/Win64/UnrealEditor-SDL3Integration-0003.pdb"
+/OUT:"C:/Unreal/DLLTest_1028_AL_2/Plugins/SDL3Integration/SDL3Integration/Binaries/Win64/UnrealEditor-SDL3Integration-0003.dll"
+/PDB:"C:/Unreal/DLLTest_1028_AL_2/Plugins/SDL3Integration/SDL3Integration/Binaries/Win64/UnrealEditor-SDL3Integration-0003.pdb"
 /ignore:4078

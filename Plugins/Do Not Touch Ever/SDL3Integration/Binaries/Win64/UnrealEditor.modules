@@ -2,6 +2,6 @@
 	"BuildId": "43139311",
 	"Modules": 
 	{
-		"SDL3Integration": "UnrealEditor-SDL3Integration-0005.dll"
+		"SDL3Integration": "UnrealEditor-SDL3Integration.dll"
 	}
 }

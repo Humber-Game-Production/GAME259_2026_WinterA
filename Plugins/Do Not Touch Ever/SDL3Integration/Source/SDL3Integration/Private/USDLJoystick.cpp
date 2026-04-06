@@ -183,17 +183,6 @@ void USDLJoystick::HandleEvents(SDL_Event* Event)
 
 void USDLJoystick::Update(const float DeltaTime)
 {
-    SDL_CloseHaptic(Haptic);
-        
-    SDL_StopHapticEffects(Haptic);
-    if (CurrentRumbleEffectId != -1) SDL_DestroyHapticEffect(Haptic, CurrentRumbleEffectId);
-    if (CurrentForceEffectId != -1) SDL_DestroyHapticEffect(Haptic, CurrentForceEffectId);
-    
-    //if (CurrentForceEffectId >= 0) {
-        SDL_StopHapticEffect(Haptic, CurrentForceEffectId);
-        SDL_DestroyHapticEffect(Haptic, CurrentForceEffectId);
-        CurrentForceEffectId = -1;
-    //}
     //Should've used inheritance, doofus
     for (auto Element : Buttons)
     {
@@ -209,17 +198,13 @@ void USDLJoystick::Update(const float DeltaTime)
 bool USDLJoystick::ApplyForce(int strength, int durationMs, int xDir, int yDir)
 {
     if (!Haptic) return false;
-    SDL_CloseHaptic(Haptic);
-        
-    SDL_StopHapticEffects(Haptic);
-    if (CurrentRumbleEffectId != -1) SDL_DestroyHapticEffect(Haptic, CurrentRumbleEffectId);
-    if (CurrentForceEffectId != -1) SDL_DestroyHapticEffect(Haptic, CurrentForceEffectId);
+
     // If an effect is already running, stop and destroy it first
-    //if (CurrentForceEffectId >= 0) {
+    if (CurrentForceEffectId >= 0) {
         SDL_StopHapticEffect(Haptic, CurrentForceEffectId);
         SDL_DestroyHapticEffect(Haptic, CurrentForceEffectId);
         CurrentForceEffectId = -1;
-    //}
+    }
 
     SDL_HapticEffect effect{};
     effect.type = SDL_HAPTIC_CONSTANT;
