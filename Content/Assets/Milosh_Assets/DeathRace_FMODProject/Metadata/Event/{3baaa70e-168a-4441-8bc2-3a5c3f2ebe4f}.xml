@@ -359,7 +359,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{8c37976c-7e84-4351-94d0-ee9c78aac143}">
 		<property name="volume">
-			<value>-17</value>
+			<value>-27</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{9b4ad0a2-2929-4a6a-b948-791907db3b66}</destination>
@@ -756,7 +756,7 @@
 			<destination>{7e145899-f86d-4c25-98ae-cd7193507750}</destination>
 		</relationship>
 		<relationship name="audioFile">
-			<destination>{cf841137-a3f5-4492-b37b-25f70d67969d}</destination>
+			<destination>{353a9dc6-9db2-4571-97b3-8aed862557b0}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceSound" id="{86a9363f-f863-48db-b89a-080abaf80404}">
@@ -817,7 +817,7 @@
 			<value>5.5</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{63eca10b-78dd-4b9e-b479-b7cd136af11d}</destination>
+			<destination>{2efacfbd-3576-4828-958d-7e7651e3fd96}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceSound" id="{beb5cced-284a-45ef-bc7f-b19c113e48b6}">
@@ -1119,7 +1119,6 @@
 		<property name="length">
 			<value>63.999999999999986</value>
 		</property>
-		<property name="name" />
 		<property name="volume">
 			<value>4.5</value>
 		</property>
@@ -1150,7 +1149,7 @@
 	</object>
 	<object class="TransitionSourceSound" id="{de4f3154-6e79-4941-9b67-a620f24841b7}">
 		<property name="length">
-			<value>0</value>
+			<value>2.6666666666666665</value>
 		</property>
 	</object>
 	<object class="TransitionDestinationSound" id="{cfa77b93-6842-471c-8164-4bab430ae2bf}">
@@ -1318,7 +1317,6 @@
 		<property name="length">
 			<value>5.3023333333333369</value>
 		</property>
-		<property name="name" />
 		<relationship name="audioFile">
 			<destination>{094f1b39-7186-4927-be2a-50f2287c2768}</destination>
 		</relationship>
@@ -1598,10 +1596,10 @@
 	</object>
 	<object class="LoopRegion" id="{71da205f-f819-46e6-85ff-9d4ef0ca8c77}">
 		<property name="position">
-			<value>98</value>
+			<value>95.994388628248231</value>
 		</property>
 		<property name="length">
-			<value>64</value>
+			<value>66.005611371751769</value>
 		</property>
 		<property name="name">
 			<value>Section 2 - Subway</value>
