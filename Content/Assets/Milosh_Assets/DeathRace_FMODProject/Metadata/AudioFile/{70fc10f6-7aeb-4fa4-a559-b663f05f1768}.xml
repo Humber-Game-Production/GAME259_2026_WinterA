@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{2a014867-8d08-4641-a2ea-de8f5c1344fd}">
+	<object class="AudioFile" id="{70fc10f6-7aeb-4fa4-a559-b663f05f1768}">
 		<property name="assetPath">
-			<value>Vehicles/Car Engine/veh_car_engine_190E_01999.ogg</value>
+			<value>Vehicle/Car_metal_Hit_2(Milosh).mp3</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>24</value>
 		</property>
 		<property name="channelCount">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.0219583333333333</value>
+			<value>6.3360000000000003</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{2716fc1e-bb13-4ee0-8232-a97d126b25cf}</destination>

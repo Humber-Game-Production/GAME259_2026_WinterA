@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{b7d54563-128c-4572-887c-358170766415}">
+		<property name="name">
+			<value>Collision Strength</value>
+		</property>
+		<relationship name="folder">
+			<destination>{78e22367-ff36-4dbc-9f60-cf5d1d0cc114}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{60ab8778-ef35-416a-9cf0-c2cf38230edf}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{60ab8778-ef35-416a-9cf0-c2cf38230edf}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
