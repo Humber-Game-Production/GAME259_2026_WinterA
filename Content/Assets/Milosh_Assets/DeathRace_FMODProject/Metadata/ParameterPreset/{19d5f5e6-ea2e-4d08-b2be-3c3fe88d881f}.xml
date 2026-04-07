@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{19d5f5e6-ea2e-4d08-b2be-3c3fe88d881f}">
+		<property name="name">
+			<value>CarFP</value>
+		</property>
+		<relationship name="folder">
+			<destination>{78e22367-ff36-4dbc-9f60-cf5d1d0cc114}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{1085f44f-3140-446f-b2d4-d2ac64c7e0ce}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{1085f44f-3140-446f-b2d4-d2ac64c7e0ce}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{b2af6b7c-fa53-4a28-80b4-736aa6c4c7ec}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{b2af6b7c-fa53-4a28-80b4-736aa6c4c7ec}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>3.2000000476837158</value>
+		</property>
+	</object>
+</objects>
